@@ -8,7 +8,11 @@
 
 
 <div class="container">
+<div>
+<p>Search Items: <span id="txtHint"></span></p> 
 
+<p>Enter name: <input type="text" id="txt1" onkeyup="showHint(this.value)"></p>
+</div>
 <div class="row">
 
 <div class="col-12">
